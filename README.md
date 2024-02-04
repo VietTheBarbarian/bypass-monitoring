@@ -10,3 +10,15 @@ Use $wc.proxy = $null to remove proxy
 To add custom Header agent to play around with analyst
 $wc.Headers.Add('User-Agent', "This chrome or firefox or????") 
 ![image](https://github.com/VietTheBarbarian/bypass-monitoring/assets/56415307/4152f49b-174d-4d4e-98e2-a6561ba325ad)
+
+
+Issue you might run in:
+PowerShell download cradle running in SYSTEM integrity level
+context does not have a proxy configuration set 
+example shown below
+Despite being connected to the proxy you will not get the proxy address
+
+
+![image](https://github.com/VietTheBarbarian/bypass-monitoring/assets/56415307/d5aef849-ec04-4e62-8dce-f04343762276)
+
+![image](https://github.com/VietTheBarbarian/bypass-monitoring/assets/56415307/2c55f4b7-c52f-4fdf-b07c-15ae28e18102)
